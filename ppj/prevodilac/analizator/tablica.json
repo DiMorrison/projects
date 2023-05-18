@@ -1,0 +1,1459 @@
+{
+  "nka": {
+    "stanja": [
+      "BQ",
+      "BX",
+      "U",
+      "P_4",
+      "DR",
+      "DB",
+      "r_3",
+      "CZ",
+      "DS",
+      "DE",
+      "CQ",
+      "CF",
+      "BV",
+      "DQ",
+      "CX",
+      "CP",
+      "DH",
+      "DL",
+      "CT",
+      "DN",
+      "I",
+      "BT",
+      "BH",
+      "R",
+      "P_0",
+      "CV",
+      "$",
+      "C",
+      "CM",
+      "M",
+      "BN",
+      "AP",
+      "BM",
+      "CC",
+      "DK",
+      "S",
+      "BY",
+      "P_3",
+      "AV",
+      "BO",
+      "CG",
+      "AC",
+      "B",
+      "AW",
+      "AZ",
+      "BD",
+      "AH",
+      "AF",
+      "Y",
+      "Z",
+      "BG",
+      "P_5",
+      "DM",
+      "DF",
+      "AD",
+      "CY",
+      "P_2",
+      "V",
+      "BZ",
+      "K",
+      "BR",
+      "CS",
+      "F",
+      "DI",
+      "O",
+      "CJ",
+      "BI",
+      "AQ",
+      "DO",
+      "DP",
+      "BF",
+      "DA",
+      "S_a",
+      "W",
+      "Q",
+      "P_1",
+      "CO",
+      "CL",
+      "BB",
+      "AR",
+      "BK",
+      "AA",
+      "BU",
+      "BS",
+      "X",
+      "AB",
+      "CU",
+      "AL",
+      "DC",
+      "T",
+      "AI",
+      "DG",
+      "AE",
+      "CI",
+      "CE",
+      "G",
+      "AG",
+      "A",
+      "AM",
+      "BA",
+      "E",
+      "BW",
+      "AJ",
+      "DD",
+      "CH",
+      "CD",
+      "AO",
+      "AS",
+      "CN",
+      "DT",
+      "CW",
+      "N",
+      "r_2",
+      "BC",
+      "BJ",
+      "r_1",
+      "L",
+      "BE",
+      "CB",
+      "AU",
+      "r_4",
+      "D",
+      "AY",
+      "AN",
+      "BL",
+      "DJ",
+      "r_0",
+      "AK",
+      "H",
+      "P",
+      "r_5",
+      "J",
+      "CR",
+      "AX",
+      "BP",
+      "AT",
+      "CA",
+      "CK"
+    ],
+    "pocetno_stanje": "S_a",
+    "prihvatljiva_stanja": [
+      "P_3",
+      "P_4",
+      "P_0",
+      "P_2",
+      "P_5",
+      "P_1"
+    ],
+    "abeceda": [
+      " ",
+      "z",
+      "o",
+      "x",
+      "c",
+      "y",
+      "d",
+      "a",
+      "\n",
+      "b"
+    ],
+    "prijelazi": [
+      {
+        "stanje": "W",
+        "znak": "",
+        "stanja": [
+          "CI",
+          "r_0"
+        ]
+      },
+      {
+        "stanje": "AM",
+        "znak": "",
+        "stanja": [
+          "AE",
+          "r_0"
+        ]
+      },
+      {
+        "stanje": "CI",
+        "znak": "",
+        "stanja": [
+          "r_0"
+        ]
+      },
+      {
+        "stanje": "AE",
+        "znak": "",
+        "stanja": [
+          "r_0",
+          "P_0"
+        ]
+      },
+      {
+        "stanje": "CI",
+        "znak": "\n",
+        "stanja": [
+          "AM"
+        ]
+      },
+      {
+        "stanje": "S_a",
+        "znak": "",
+        "stanja": [
+          "CE",
+          "BO",
+          "DB",
+          "W",
+          "BC",
+          "CP"
+        ]
+      },
+      {
+        "stanje": "CP",
+        "znak": "",
+        "stanja": [
+          "CL",
+          "r_1"
+        ]
+      },
+      {
+        "stanje": "DH",
+        "znak": "",
+        "stanja": [
+          "CU",
+          "r_1"
+        ]
+      },
+      {
+        "stanje": "CU",
+        "znak": "",
+        "stanja": [
+          "P_1",
+          "r_1"
+        ]
+      },
+      {
+        "stanje": "CL",
+        "znak": "",
+        "stanja": [
+          "r_1"
+        ]
+      },
+      {
+        "stanje": "CL",
+        "znak": " ",
+        "stanja": [
+          "DH"
+        ]
+      },
+      {
+        "stanje": "A",
+        "znak": "",
+        "stanja": [
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "J",
+        "znak": "",
+        "stanja": [
+          "O",
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "BY",
+        "znak": "",
+        "stanja": [
+          "CD",
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "O",
+        "znak": "",
+        "stanja": [
+          "P_2",
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "CD",
+        "znak": "",
+        "stanja": [
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "CF",
+        "znak": "",
+        "stanja": [
+          "r_2",
+          "V"
+        ]
+      },
+      {
+        "stanje": "V",
+        "znak": "",
+        "stanja": [
+          "CM",
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "U",
+        "znak": "",
+        "stanja": [
+          "A",
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "CJ",
+        "znak": "",
+        "stanja": [
+          "DT",
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "CM",
+        "znak": "",
+        "stanja": [
+          "J",
+          "r_2",
+          "AF"
+        ]
+      },
+      {
+        "stanje": "AF",
+        "znak": "",
+        "stanja": [
+          "CJ",
+          "U",
+          "r_2",
+          "BY"
+        ]
+      },
+      {
+        "stanje": "CX",
+        "znak": "",
+        "stanja": [
+          "CM",
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "CZ",
+        "znak": "",
+        "stanja": [
+          "J",
+          "r_2",
+          "AF"
+        ]
+      },
+      {
+        "stanje": "DB",
+        "znak": "",
+        "stanja": [
+          "BE",
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "AK",
+        "znak": "",
+        "stanja": [
+          "DI",
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "DI",
+        "znak": "",
+        "stanja": [
+          "CM",
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "AZ",
+        "znak": "",
+        "stanja": [
+          "CZ",
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "BA",
+        "znak": "",
+        "stanja": [
+          "CX",
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "BE",
+        "znak": "",
+        "stanja": [
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "DT",
+        "znak": "",
+        "stanja": [
+          "r_2"
+        ]
+      },
+      {
+        "stanje": "BE",
+        "znak": "x",
+        "stanja": [
+          "AZ"
+        ]
+      },
+      {
+        "stanje": "A",
+        "znak": "a",
+        "stanja": [
+          "BA"
+        ]
+      },
+      {
+        "stanje": "DT",
+        "znak": "b",
+        "stanja": [
+          "CF"
+        ]
+      },
+      {
+        "stanje": "CD",
+        "znak": "c",
+        "stanja": [
+          "AK"
+        ]
+      },
+      {
+        "stanje": "BP",
+        "znak": "",
+        "stanja": [
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "BR",
+        "znak": "",
+        "stanja": [
+          "r_3",
+          "I"
+        ]
+      },
+      {
+        "stanje": "F",
+        "znak": "",
+        "stanja": [
+          "CS",
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "I",
+        "znak": "",
+        "stanja": [
+          "CB",
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "BV",
+        "znak": "",
+        "stanja": [
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "CB",
+        "znak": "",
+        "stanja": [
+          "AD",
+          "DP",
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "N",
+        "znak": "",
+        "stanja": [
+          "r_3",
+          "BV"
+        ]
+      },
+      {
+        "stanje": "P",
+        "znak": "",
+        "stanja": [
+          "T",
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "S",
+        "znak": "",
+        "stanja": [
+          "P_3",
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "T",
+        "znak": "",
+        "stanja": [
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "X",
+        "znak": "",
+        "stanja": [
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "CS",
+        "znak": "",
+        "stanja": [
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "AD",
+        "znak": "",
+        "stanja": [
+          "DR",
+          "AI",
+          "r_3",
+          "N"
+        ]
+      },
+      {
+        "stanje": "DQ",
+        "znak": "",
+        "stanja": [
+          "AH",
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "AH",
+        "znak": "",
+        "stanja": [
+          "CB",
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "AI",
+        "znak": "",
+        "stanja": [
+          "r_3",
+          "BP"
+        ]
+      },
+      {
+        "stanje": "DD",
+        "znak": "",
+        "stanja": [
+          "DJ",
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "DF",
+        "znak": "",
+        "stanja": [
+          "DG",
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "AQ",
+        "znak": "",
+        "stanja": [
+          "X",
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "DG",
+        "znak": "",
+        "stanja": [
+          "AD",
+          "DP",
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "DJ",
+        "znak": "",
+        "stanja": [
+          "CB",
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "DL",
+        "znak": "",
+        "stanja": [
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "BC",
+        "znak": "",
+        "stanja": [
+          "DL",
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "DP",
+        "znak": "",
+        "stanja": [
+          "r_3",
+          "S"
+        ]
+      },
+      {
+        "stanje": "BF",
+        "znak": "",
+        "stanja": [
+          "r_3"
+        ]
+      },
+      {
+        "stanje": "DR",
+        "znak": "",
+        "stanja": [
+          "r_3",
+          "BF"
+        ]
+      },
+      {
+        "stanje": "DL",
+        "znak": "o",
+        "stanja": [
+          "DF"
+        ]
+      },
+      {
+        "stanje": "BF",
+        "znak": "a",
+        "stanja": [
+          "AQ"
+        ]
+      },
+      {
+        "stanje": "X",
+        "znak": "b",
+        "stanja": [
+          "DD"
+        ]
+      },
+      {
+        "stanje": "BP",
+        "znak": "b",
+        "stanja": [
+          "F"
+        ]
+      },
+      {
+        "stanje": "CS",
+        "znak": "c",
+        "stanja": [
+          "BR"
+        ]
+      },
+      {
+        "stanje": "BV",
+        "znak": "c",
+        "stanja": [
+          "P"
+        ]
+      },
+      {
+        "stanje": "T",
+        "znak": "a",
+        "stanja": [
+          "DQ"
+        ]
+      },
+      {
+        "stanje": "BO",
+        "znak": "",
+        "stanja": [
+          "DE",
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "BQ",
+        "znak": "",
+        "stanja": [
+          "r_4",
+          "CY"
+        ]
+      },
+      {
+        "stanje": "BS",
+        "znak": "",
+        "stanja": [
+          "CR",
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "G",
+        "znak": "",
+        "stanja": [
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "BW",
+        "znak": "",
+        "stanja": [
+          "r_4",
+          "G"
+        ]
+      },
+      {
+        "stanje": "K",
+        "znak": "",
+        "stanja": [
+          "r_4",
+          "AB"
+        ]
+      },
+      {
+        "stanje": "L",
+        "znak": "",
+        "stanja": [
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "M",
+        "znak": "",
+        "stanja": [
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "BD",
+        "znak": "",
+        "stanja": [
+          "r_4",
+          "P_4"
+        ]
+      },
+      {
+        "stanje": "CN",
+        "znak": "",
+        "stanja": [
+          "BI",
+          "DO",
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "Y",
+        "znak": "",
+        "stanja": [
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "AA",
+        "znak": "",
+        "stanja": [
+          "DK",
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "AB",
+        "znak": "",
+        "stanja": [
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "CR",
+        "znak": "",
+        "stanja": [
+          "AR",
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "CV",
+        "znak": "",
+        "stanja": [
+          "r_4",
+          "CN"
+        ]
+      },
+      {
+        "stanje": "CY",
+        "znak": "",
+        "stanja": [
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "DA",
+        "znak": "",
+        "stanja": [
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "DC",
+        "znak": "",
+        "stanja": [
+          "L",
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "AL",
+        "znak": "",
+        "stanja": [
+          "r_4",
+          "BD"
+        ]
+      },
+      {
+        "stanje": "DE",
+        "znak": "",
+        "stanja": [
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "AR",
+        "znak": "",
+        "stanja": [
+          "DK",
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "AU",
+        "znak": "",
+        "stanja": [
+          "Y",
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "DK",
+        "znak": "",
+        "stanja": [
+          "r_4",
+          "DA"
+        ]
+      },
+      {
+        "stanje": "DN",
+        "znak": "",
+        "stanja": [
+          "r_4",
+          "AA"
+        ]
+      },
+      {
+        "stanje": "DO",
+        "znak": "",
+        "stanja": [
+          "r_4",
+          "BS"
+        ]
+      },
+      {
+        "stanje": "BI",
+        "znak": "",
+        "stanja": [
+          "M",
+          "r_4"
+        ]
+      },
+      {
+        "stanje": "DE",
+        "znak": "a",
+        "stanja": [
+          "BW"
+        ]
+      },
+      {
+        "stanje": "G",
+        "znak": "b",
+        "stanja": [
+          "CV"
+        ]
+      },
+      {
+        "stanje": "M",
+        "znak": "a",
+        "stanja": [
+          "BQ"
+        ]
+      },
+      {
+        "stanje": "CY",
+        "znak": "b",
+        "stanja": [
+          "AU"
+        ]
+      },
+      {
+        "stanje": "Y",
+        "znak": "c",
+        "stanja": [
+          "DN"
+        ]
+      },
+      {
+        "stanje": "DA",
+        "znak": "c",
+        "stanja": [
+          "K"
+        ]
+      },
+      {
+        "stanje": "AB",
+        "znak": "c",
+        "stanja": [
+          "DC"
+        ]
+      },
+      {
+        "stanje": "L",
+        "znak": "c",
+        "stanja": [
+          "AL"
+        ]
+      },
+      {
+        "stanje": "BK",
+        "znak": "",
+        "stanja": [
+          "r_5",
+          "AG"
+        ]
+      },
+      {
+        "stanje": "BM",
+        "znak": "",
+        "stanja": [
+          "AO",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "BN",
+        "znak": "",
+        "stanja": [
+          "r_5",
+          "AG"
+        ]
+      },
+      {
+        "stanje": "B",
+        "znak": "",
+        "stanja": [
+          "AP",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "C",
+        "znak": "",
+        "stanja": [
+          "H",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "D",
+        "znak": "",
+        "stanja": [
+          "BN",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "E",
+        "znak": "",
+        "stanja": [
+          "CH",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "H",
+        "znak": "",
+        "stanja": [
+          "D",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "BT",
+        "znak": "",
+        "stanja": [
+          "r_5",
+          "AT"
+        ]
+      },
+      {
+        "stanje": "BU",
+        "znak": "",
+        "stanja": [
+          "DM",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "BX",
+        "znak": "",
+        "stanja": [
+          "CQ",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "BZ",
+        "znak": "",
+        "stanja": [
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "CA",
+        "znak": "",
+        "stanja": [
+          "AV",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "DS",
+        "znak": "",
+        "stanja": [
+          "CA",
+          "r_5",
+          "BB"
+        ]
+      },
+      {
+        "stanje": "CC",
+        "znak": "",
+        "stanja": [
+          "CK",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "Q",
+        "znak": "",
+        "stanja": [
+          "BZ",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "R",
+        "znak": "",
+        "stanja": [
+          "r_5",
+          "AT"
+        ]
+      },
+      {
+        "stanje": "CE",
+        "znak": "",
+        "stanja": [
+          "AC",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "CG",
+        "znak": "",
+        "stanja": [
+          "r_5",
+          "R"
+        ]
+      },
+      {
+        "stanje": "CH",
+        "znak": "",
+        "stanja": [
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "CK",
+        "znak": "",
+        "stanja": [
+          "Q",
+          "r_5",
+          "CW"
+        ]
+      },
+      {
+        "stanje": "DM",
+        "znak": "",
+        "stanja": [
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "BJ",
+        "znak": "",
+        "stanja": [
+          "CQ",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "CO",
+        "znak": "",
+        "stanja": [
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "Z",
+        "znak": "",
+        "stanja": [
+          "r_5",
+          "BJ"
+        ]
+      },
+      {
+        "stanje": "AC",
+        "znak": "",
+        "stanja": [
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "CT",
+        "znak": "",
+        "stanja": [
+          "BT",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "CQ",
+        "znak": "",
+        "stanja": [
+          "BK",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "CW",
+        "znak": "",
+        "stanja": [
+          "r_5",
+          "AJ"
+        ]
+      },
+      {
+        "stanje": "AG",
+        "znak": "",
+        "stanja": [
+          "r_5",
+          "AN"
+        ]
+      },
+      {
+        "stanje": "AJ",
+        "znak": "",
+        "stanja": [
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "AN",
+        "znak": "",
+        "stanja": [
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "AO",
+        "znak": "",
+        "stanja": [
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "AS",
+        "znak": "",
+        "stanja": [
+          "BH",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "AT",
+        "znak": "",
+        "stanja": [
+          "DS",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "AV",
+        "znak": "",
+        "stanja": [
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "AW",
+        "znak": "",
+        "stanja": [
+          "BX",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "AX",
+        "znak": "",
+        "stanja": [
+          "r_5",
+          "CO"
+        ]
+      },
+      {
+        "stanje": "AY",
+        "znak": "",
+        "stanja": [
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "BB",
+        "znak": "",
+        "stanja": [
+          "AY",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "AP",
+        "znak": "",
+        "stanja": [
+          "P_5",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "BG",
+        "znak": "",
+        "stanja": [
+          "CC",
+          "r_5",
+          "C"
+        ]
+      },
+      {
+        "stanje": "BH",
+        "znak": "",
+        "stanja": [
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "BL",
+        "znak": "",
+        "stanja": [
+          "BG",
+          "r_5"
+        ]
+      },
+      {
+        "stanje": "AC",
+        "znak": "y",
+        "stanja": [
+          "BM"
+        ]
+      },
+      {
+        "stanje": "AO",
+        "znak": "a",
+        "stanja": [
+          "BL"
+        ]
+      },
+      {
+        "stanje": "BZ",
+        "znak": "x",
+        "stanja": [
+          "E"
+        ]
+      },
+      {
+        "stanje": "CH",
+        "znak": "x",
+        "stanja": [
+          "CG"
+        ]
+      },
+      {
+        "stanje": "AJ",
+        "znak": "y",
+        "stanja": [
+          "AS"
+        ]
+      },
+      {
+        "stanje": "BH",
+        "znak": "y",
+        "stanja": [
+          "CT"
+        ]
+      },
+      {
+        "stanje": "AY",
+        "znak": "d",
+        "stanja": [
+          "AX"
+        ]
+      },
+      {
+        "stanje": "CO",
+        "znak": "d",
+        "stanja": [
+          "AW"
+        ]
+      },
+      {
+        "stanje": "AV",
+        "znak": "a",
+        "stanja": [
+          "BU"
+        ]
+      },
+      {
+        "stanje": "DM",
+        "znak": "d",
+        "stanja": [
+          "Z"
+        ]
+      },
+      {
+        "stanje": "AN",
+        "znak": "z",
+        "stanja": [
+          "B"
+        ]
+      }
+    ]
+  },
+  "pravila": [
+    {
+      "oznaka": "P_0",
+      "akcije": [
+        {
+          "tip": "IME_JEDINKE",
+          "argument": "-"
+        },
+        {
+          "tip": "NOVI_REDAK",
+          "argument": null
+        },
+        {
+          "tip": "UDJI_U_STANJE",
+          "argument": "S_a"
+        }
+      ]
+    },
+    {
+      "oznaka": "P_1",
+      "akcije": [
+        {
+          "tip": "IME_JEDINKE",
+          "argument": "-"
+        },
+        {
+          "tip": "UDJI_U_STANJE",
+          "argument": "S_a"
+        }
+      ]
+    },
+    {
+      "oznaka": "P_2",
+      "akcije": [
+        {
+          "tip": "IME_JEDINKE",
+          "argument": "A"
+        },
+        {
+          "tip": "UDJI_U_STANJE",
+          "argument": "S_a"
+        }
+      ]
+    },
+    {
+      "oznaka": "P_3",
+      "akcije": [
+        {
+          "tip": "IME_JEDINKE",
+          "argument": "B"
+        },
+        {
+          "tip": "UDJI_U_STANJE",
+          "argument": "S_a"
+        }
+      ]
+    },
+    {
+      "oznaka": "P_4",
+      "akcije": [
+        {
+          "tip": "IME_JEDINKE",
+          "argument": "C"
+        },
+        {
+          "tip": "UDJI_U_STANJE",
+          "argument": "S_a"
+        }
+      ]
+    },
+    {
+      "oznaka": "P_5",
+      "akcije": [
+        {
+          "tip": "IME_JEDINKE",
+          "argument": "D"
+        },
+        {
+          "tip": "UDJI_U_STANJE",
+          "argument": "S_a"
+        }
+      ]
+    }
+  ]
+}

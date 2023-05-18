@@ -1,0 +1,10 @@
+    MOVE 40000, R7
+    CALL F_MAIN
+    HALT
+
+G_A    DW %D 7
+F_FJA    POP R5
+    PUSH R5
+   RET
+    PUSH R5
+F_MAIN 
