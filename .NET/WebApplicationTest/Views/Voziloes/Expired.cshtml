@@ -1,0 +1,47 @@
+﻿@model IEnumerable<WebApplicationTest.Models.Vozilo>
+@{
+    ViewData["Title"] = "Expired";
+}
+
+<h1>Expired Vehicles</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Naziv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tip)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RegOznaka)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DatumIsteka)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+         @if (DateTime.Now > item.DatumIsteka)
+        {
+            <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Naziv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tip.Naziv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegOznaka)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DatumIsteka)
+            </td>
+            </tr>
+        }
+}
+    </tbody>
+</table>

@@ -1,0 +1,53 @@
+﻿@model IEnumerable<WebApplicationTest.Models.Vozilo>
+
+@{
+    ViewData["Title"] = "Pregled vozila / Vehicles overwiev";
+}
+
+<h1>Pregled vozila / Vehicles overwiev</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Naziv)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tip)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RegOznaka)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DatumIsteka)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Naziv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tip.Naziv)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RegOznaka)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DatumIsteka)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.idVozila">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.idVozila">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.idVozila">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
